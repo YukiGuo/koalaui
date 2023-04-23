@@ -1,9 +1,5 @@
 # Foo
 
-This is an example component.
+## 测试
 
-```jsx
-import { Foo } from 'koalaui';
-export default () => <Foo title="Hello dumi!" />
-`
-```
+This is an example component.
