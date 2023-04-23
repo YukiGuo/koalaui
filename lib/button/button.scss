@@ -1,0 +1,50 @@
+@import '../style/varible.scss';
+
+.koala-button {
+    font-size: $font-size-sm;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.koala-default-button {
+    background: $white;
+    border: 1px solid $gray-m4;
+    color: $gray-m8;
+
+    &:hover {
+        background: $blue-s1;
+        border: 1px solid $blue-s2;
+        color: $blue-s4;
+    }
+}
+
+.koala-success-button {
+    background: $success-s;
+    color: $white;
+}
+
+.koala-warning-button {
+    background: $warning-s;
+    color: $white;
+}
+
+.koala-primary-button {
+    background: $blue-s4;
+    color: $white;
+}
+
+.koala-text-button {
+    background: $white;
+    color: $blue-s4;
+}
+.koala-small-button{
+    padding: 6px 12px;
+}
+.koala-large-button{
+    padding: 10px 26px;
+}
